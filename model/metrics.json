@@ -1,0 +1,20 @@
+{
+    "total_samples": 6513,
+    "train_size": 5210,
+    "test_size": 1303,
+    "best_model": "Random Forest",
+    "comparison": {
+        "Logistic Regression": {
+            "accuracy": 0.5510360706062931,
+            "type": "Linear Classification",
+            "strengths": "Fast, simple, interpretable",
+            "weaknesses": "Cannot model complex patterns"
+        },
+        "Random Forest": {
+            "accuracy": 0.5648503453568687,
+            "type": "Ensemble Tree-Based",
+            "strengths": "Handles non-linearity, high accuracy",
+            "weaknesses": "Less interpretable, slower"
+        }
+    }
+}
